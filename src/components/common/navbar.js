@@ -21,7 +21,7 @@ const NavBar = () => {
             />
           </svg>
           <Link to="/">
-            <h3 className="ml-1 text-xl font-semibold">Wheater App</h3>
+            <h3 className="ml-1 text-xl font-semibold">Weather App</h3>
           </Link>
         </div>
       </div>
