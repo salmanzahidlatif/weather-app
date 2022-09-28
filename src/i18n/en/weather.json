@@ -1,0 +1,14 @@
+{
+  "weather": {
+    "locationPermissionAlert": "Location - Please enable access location in the browser",
+    "todayForcast": "Today’s Forcast for ",
+    "weeklyForcast": "Weekly Forcast for",
+    "feelsLike": "Feels like",
+    "humidity": "humidity",
+    "winds": "winds",
+    "filterWeather": "Filter weather",
+    "changeTempratureUnits": "Change Temprature Units",
+    "celcius": "Celcius (C°)",
+    "fahrenheit": "Fahrenheit (F°)"
+  }
+}
