@@ -93,7 +93,7 @@ export const Dashboard: React.FC = () => {
     <>
       {(
         <main>
-          <div className='mx-auto md:w-full'>
+          <div className='container mx-auto w-full'>
           <NavBar />
           <Search
             location={locationParams?.location}
@@ -102,13 +102,13 @@ export const Dashboard: React.FC = () => {
           />
           <div className='container mt-5 mx-auto px-2'>
             <div className='md:flex flex-col md:flex-row justify-center'>
-              <div className='text-center bg-gray-100 px-5 py-5 m-2 rounded'>
+              <div className='text-center bg-gray-100 px-5 py-5 md:w-full m-2 rounded'>
                 {/* Displaying today forcast whether */}
                 { isLoading ? <Loading/> : <TodayForcast units= {tempUnit}/>}
                 {/* Displaying days of forcast whether */}
                 { isLoadingForecast ? <Loading/> : <Forecast units= {tempUnit}/>}
               </div>
-              <div className='text-center items-center bg-gray-100 px-5 py-5 m-2 rounded'>
+              <div className='text-center md:w-full items-center bg-gray-100 px-5 py-5 m-2 rounded'>
                 <TempratureConverter units= {tempUnit} handleUnitsChange={handleUnitsChange}/>
                 {/* Render map for whether location*/}
                 {locationParams?.lat && locationParams?. lon && 

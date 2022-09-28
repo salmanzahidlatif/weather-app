@@ -4,7 +4,7 @@ import React from 'react'
   const { isSearching, onLocationChange } = props
 
   return (
-    <div className='w-4/5 md:w-3/5 lg:w-1/2 m-auto'>
+    <div className='w-3/4 m-auto'>
       <div className='flex flex-row mx-2 p-2 justify-start border-b border-green-300'>
         <svg
           width='24'
