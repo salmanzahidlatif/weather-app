@@ -8,12 +8,12 @@ weather forecast app using Open Weather API and React JS
 
 ### Quick Start
 - Make sure that you have node.js and yarn installed.
-- Clone this repo using `git clone git@gitlab.com:development-team20/boilerplates/reactjs-weather-app.git`.
-- In `package.json`, change name `reactjs-weather-app` to your <YOUR_PROJECT_NAME>.
+- Clone this repo using `git clone https://github.com/engrrbilal/weather-app`.
 - Create `.env` file according to [.env.template](./.env.template).
 - Install all dependencies using `yarn install`.
 
 ### Development Build
+- `yarn`
 - `yarn start`
 ### Production Build
 - `yarn build`
